@@ -1,4 +1,4 @@
-// Assignment Code
+  // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
@@ -65,39 +65,3 @@ var generatePassword = function(){
 
 generateBtn.addEventListener("click", writePassword);  
 
-
-
- /* userLength = prompt('Enter your desired password length between 8-128 chars');
-  console.log(userLength)
-  userUpper = prompt('Would you like to include upper case letter?');
-  console.log(userUpper)
-  userLower = prompt('Would you like to include lower case letters?');
-  console.log(userLower)
-  userSpecial = prompt('Would you like to include special characters?');
-  console.log(userSpecial)
-  userNumbers = prompt('Would you like to include numbers?');
-  console.log(userNumbers)
-
-  if (confirm("Press a button!")) {
-    txt = "You pressed OK!";
-  } else {
-    txt = "You pressed Cancel!";
-  }
-
-
-  if (userUpper) {
-    newArray.push(...upper);
-  };
-  if (userLower) {
-    newArray.push(...lower);
-  };
-  if (userSpecial) {
-    newArray.push(...special);
-  };
-  if (userNumbers) {
-    newArray.push(...numbers);
-  };
-
-  if(userLength >= 8 && userLength <= 128) {
-    newArray[Math.floor(Math.random() * userLength)];
- */
